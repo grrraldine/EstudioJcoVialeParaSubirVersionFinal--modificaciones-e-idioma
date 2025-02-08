@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/img/SVG/civil.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">    
+    <link rel="icon" href="assets/img/SVG/favicon-negro.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="global.css"> 
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="contacto.css"> 
+    <meta name="format-detection" content="telephone=no">
+    <title>Estudio Viale</title>
+</head>
+
+<body>
+
+<header>
+    <!-- Barra superior: Logo, Contacto, Consulta -->
+    <div class="bar-sup">
+        <a class="infoMail-sup" href="mailto:chviale39@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a class="infoTel-sup" href="tel:+5493517665888" aria-label="Teléfono">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+<!--         <a class="infoLinkedin-sup" href="https://www.linkedin.com/in/claudio-horacio-viale-193367165?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B48BAZzw9QrmP%2FrsjpnCupQ%3D%3D" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a> -->
+        <a class="mobile-abr">
+            <button id="language-toggle-abr" class="btn-idioma-abr" onclick="toggleLanguageMobile()">En</button>
+        </a>
+    </div>
+
+    
+    <!--header top-->    
+
+    <div class="header-top">
+        <a href="index.html" class="logo">
+            <img src="assets/img/logo horizonta.png" alt="Logo del Estudio">
+        </a>
+        <div class="contact-info">
+            <a href="mailto:info@vialeabogados.com" class="info-text"><i class="fas fa-envelope"></i>info@vialeabogados.com</a>
+            <a href="https://maps.app.goo.gl/oNEUQoUoX3T4Th9cA" target="_blank" class="info-text"><i class="fas fa-map-marker-alt"></i>Arturo M. Bas 385, Córdoba, Argentina.</a>
+            <div class="consulta">
+                <button id="language-toggle" class="btn-idioma" onclick="toggleLanguageDesktop()">English</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nav bar -->
+    <div class="navbar">
+        <div class="menu">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <img src="assets/img/SVG/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Descripción del icono" width="24" height="24">
+            </label>
+            <nav class="nav-links">
+                <a href="index.html">Inicio</a>
+                <a href="sobre-nosotros.html">Sobre Nosotros</a>
+                <a href="profesionales.html">Profesionales</a>
+                <a href="servicios.html">Servicios legales</a>
+                <a href="contacto.html">Contacto</a>
+                <label for="menu-toggle" class="close-icon">
+                    <img src="assets/img/SVG/close_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Descripción del icono" width="24" height="24">
+                </label>           
+            </nav>
+        </div>
+    </div> 
+
+
+
+    <!-- Banner principal -->
+    <div class="banner-contacto">
+    <div class="banner-content">
+        <h1>Contacto.</h1>
+ <!--          <div class="divider2"></div>
+      <p class="banner-text"> Puedes comunicarte con nosotros a través de nuestros datos de contacto o visitarnos directamente en nuestra oficina.</p>
+ -->    </div>
+    </div>   
+</header>
+
+
+<main>
+    <section id="areas-de-practica">
+        <div class="texto-container-service">
+        <h3 class="epigrafe">¿DONDE ESTAMOS?</h3>
+        <h2 class="subtitulo-servicios">Encontranos</h2>
+        <div class="divider"></div>
+            <p class="texto-encabezado-servicio"> Puedes comunicarte con nosotros a través de nuestros datos de contacto o visitarnos directamente en nuestra oficina.
+        </p>  
+        </div>
+
+
+
+    <div class="service-container">
+        <div class="contact-page">
+            <div class="contact-info-form">
+                <p><strong>Dirección:</strong> <span class="highlight2">Arturo M. Bas 385, X5000 Córdoba</span></p>
+                <p><strong>Horarios de Atencion:</strong> <span class="highlight2">9AM a 17PM</span></p>
+                <p><strong>Email:</strong> <span class="highlight2">chviale39@gmail.com</span></p>
+                <p><strong>Teléfono:</strong><span class="highlight2"> +54 9 351 766-5888</span></p>
+            </div>
+            <div class="contact-map">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.846323502577!2d-64.19630608816313!3d-31.418359874153442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a280951735bb%3A0xf28b7b514e76ecd5!2sArturo%20M.%20Bas%20385%2C%20X5000%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1730144855776!5m2!1ses-419!2sar" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+            </div>
+        </div>
+        
+    </div>
+
+    </div>       
+    </section>
+
+</main>
+
+
+<div class="container-form" id="form">
+    <form action="https://formspree.io/f/xnnqpzyz" method="POST" id="contact-form">
+        <label for="nombre">
+            <span>Nombre</span>
+            <input type="text" class="nombre" name="nombre" id="nombre" title="Solo letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$">
+        </label>
+        <div class="containerMailTelefono">
+            <label for="mail">
+                <span>Mail</span>
+                <input type="email" class="mail" name="mail" id="mail" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+            </label>
+            <label for="telefono">
+                <span>Teléfono</span>
+                <input type="tel" class="telefono" name="telefono" id="telefono" pattern="^\+?\d{1,15}$" title="Formato válido: +54 911 1234 5678" required>
+            </label>
+        </div>
+        <label class="consulta" for="consulta">
+            <span>Consulta</span>
+            <textarea name="consulta" class="textarea" id="consulta" rows="4" cols="50" data-pattern="^.{1,255}$"></textarea>
+        </label>
+        <button type="submit" class="cta-button button4">Consultanos</button>
+        <!-- Contenedor del mensaje de éxito -->
+        <p id="response-message" style="display: none;">¡Tu consulta se ha enviado exitosamente!</p>
+    </form>
+
+    <section class="infoForm">
+        <h2>Contacto</h2>
+        <div class="divider3"></div>
+        <p>¿Tenés alguna duda o consulta? Dejanos tu consulta y te respondemos a la brevedad. Si preferís, también podés contactarnos por Email o WhatsApp.</p>
+        <a class="infoMail" href="mailto:chviale39@gmail.com">
+            <i class="fas fa-envelope"></i> chviale39@gmail.com
+        </a>
+        <a class="infoTel" href="tel:+5493517665888">
+            <i class="fas fa-phone-alt"></i> +54 9 351 766-5888
+        </a>
+        <a class="infoLinkedin" href="https://www.linkedin.com/in/claudio-horacio-viale-193367165?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B48BAZzw9QrmP%2FrsjpnCupQ%3D%3D" target="_blank">
+            <i class="fab fa-linkedin"></i> Claudio Horacio Viale
+        </a>
+    </section>    
+</div>
+
+    
+
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>&copy; 2024 Estudio Viale. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    
+    
+    <a href="https://wa.me/+54351157665888" class="whatsapp-button" target="_blank">
+        <img src="assets/img/whatsapp-icon.png" alt="WhatsApp">
+    </a>
+    
+        <!-- Google Translate class="btn-consulta cta-button"-->
+    <div id="google_translate_element" style="display: none;"></div>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- Google Translate class="btn-consulta cta-button"-->
+
+
+    <script src="scripts.js"></script>  
+
+
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,187 @@
+/* Contenedor principal */
+
+
+main {
+    display: flex;
+    align-items: center;
+
+
+}
+.profile-container {
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+/*     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ */    border-radius: 8px;
+    gap: 100px;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+
+/* Foto de perfil */
+.profile-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-photo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ccc;
+}
+
+
+.profile-photo {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+  }
+
+.profile-info {
+    text-align: center; /* Centrar el texto */
+    margin-top: 10px; /* Espacio entre la foto y el texto */
+}
+
+.profile-info h3 {
+  font-size: 1.2em;
+  color: #333; /* Color del nombre */
+  margin: 0; /* Eliminar margen */
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+.profile-info p {
+    font-size: 1em; /* Tamaño del puesto */
+    color: #cbbc9b; /* Color más suave para el puesto */
+    margin: 0; /* Eliminar margen */
+    font-weight: 600;
+}
+
+/* Contenido del perfil */
+.profile-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    flex: 1;
+    margin: 0 20px 0 20px;
+    justify-content: start;
+}
+
+/* Columnas de antecedentes y experiencia */
+.profile-column {
+    flex: 1;
+}
+
+.profile-column h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #cbbc9b;
+    padding-bottom: 5px;
+    font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+.profile-column ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.profile-column ul li {
+    font-size: 1em;
+    color: #949494;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.profile-container {
+  gap: 40px
+}
+.profile-column {
+  max-width: 355px;
+  min-width: 355px;
+}
+  
+.profile-content {
+  justify-content: start;
+}
+.profile-info {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+@media (max-width: 1220px) {
+  .profile-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 812px) {
+    .profile-photo {
+        display: flex;
+        justify-content: start;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        
+      }
+      .profile-info {
+        text-align: left;
+        margin-top: 10px;
+      }
+    
+  }
+
+  @media (max-width: 802px) {
+    .profile-content {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 802px) {
+    .banner-content h1 {
+      color: #FFFFFF;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      line-height: 1.2;
+      margin: 0 0 1.5rem 0;
+      font-size: 2.8em;
+    }
+    .profile-container {
+      gap: 40px
+    }
+  }
+
+  @media (max-width: 428px) {
+    .profile-photo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        
+      }
+
+
+      .profile-container {
+        gap: 40px
+      }
+
+      .profile-info {
+        text-align: left;
+        font-size: 1.2em;
+        margin: 10px 20px 0 20px;
+    }
+
+}
+  
+.profile-column ul li {
+  color: #565656d1;}

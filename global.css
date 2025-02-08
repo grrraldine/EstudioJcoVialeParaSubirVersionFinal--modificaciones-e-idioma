@@ -1,0 +1,425 @@
+/*-----------------------
+    INFORMACION DEL FORM
+--------------------------*/
+
+.infoForm {
+    width: 30%;
+}
+.infoForm h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    padding: 0 0 0.6rem 0;
+
+}
+.infoForm p:first-of-type{
+    font-size: 1rem;
+    padding: 0 0 5rem 0;
+}
+
+.infoForm .infoMail,
+.infoForm .infoTel{
+    font-size: 1rem;
+}
+.infoForm .infoMail{
+    padding-bottom: 1rem;
+}
+input:focus {
+    outline: none; 
+}
+
+textarea:focus {
+    outline: none; 
+}
+textarea {
+    color: #fff;
+}
+
+input {
+    color: #fff;
+}
+
+.infoForm .infoMail {
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.infoForm .infoTel {
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}   
+
+.infoForm .infoLinkedin {
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer {
+    background-color: #CBBC9B; /* Fondo gris oscuro */
+    color: #00231d; /* Texto en blanco */
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+
+.container-form {
+    display: flex;
+    background-color: #000;
+    color: white;
+    padding: 40px;
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+form {
+    width: 60%; /* El formulario ocupará el 60% del contenedor */
+}
+
+.infoForm {
+    width: 30%; /* La sección de información ocupará el 30% del contenedor */
+}
+.infoMail,
+.infoTel,
+.infoLinkedin {
+    display: block; /* Hace que cada enlace esté en una nueva línea */
+    margin: 8px 0; /* Espacio entre enlaces */
+    color: #ffffff; /* Cambia el color según tu diseño */
+    text-decoration: none; /* Elimina subrayado */
+}
+
+.infoMail i,
+.infoTel i,
+.infoLinkedin i {
+    margin-right: 8px; /* Espacio entre el ícono y el texto */
+}
+.infoMail i,
+.infoTel i,
+.infoLinkedin i {
+    font-size: 20px; /* Ajusta este valor al tamaño deseado */
+    width: 24px; /* Ancho opcional, para asegurar la consistencia */
+    height: 24px; /* Alto opcional, para asegurar la consistencia */
+    display: inline-block; /* Asegura que el tamaño se respete */
+    vertical-align: middle; /* Alinea el icono con el texto */
+    margin-right: 8px; /* Espacio entre el ícono y el texto */
+}
+
+
+@media (max-width: 802px) {
+    .container-form {
+        display: flex;
+        flex-direction:column-reverse; /* Invierte el orden para que el segundo div esté antes del primero */
+        flex-wrap: wrap; 
+    }
+    .container-form {
+        height: auto;
+        gap: 3rem;
+      }
+
+    form, .infoForm {
+        width: 100%; 
+    }
+
+    .containerMailTelefono {
+        flex-direction: column; 
+        width: 100%; 
+    }
+} 
+
+
+/*-----------------------
+    FOOTER FOOTER FOOTER
+--------------------------*/
+
+.footer {
+    clear: both; /* Asegura que el footer se mantenga por debajo del formulario */
+    background-color: #CBBC9B;
+    color: #00231d;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+
+
+/* WS WS WS WS WS WS */
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+}
+
+
+.whatsapp-button img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease; /* Efecto de hover suave */
+}
+
+.whatsapp-button img:hover {
+    transform: scale(1.1); /* Agranda el ícono cuando se pasa el mouse */
+}
+
+
+@media (max-width: 802px) {
+
+.banner-content h1 {
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 0rem 0;
+    font-size: 2.8em;
+}
+
+.banner-content-frase h1 {
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 0rem 0;
+    font-size: 2.8em;
+}
+.containerMailTelefono label {
+    width: 100%;
+  }
+}
+
+@media (max-width: 802px) {
+    .banner-content h1 {
+      color: #FFFFFF;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      line-height: 1.2;
+      margin: 0 0 0rem 0;
+      font-size: 2.8em;
+    }
+  }
+
+@media (max-width: 998px) {
+    .logo {
+        z-index: 10;
+    }
+}
+
+@media (max-width: 508px) {
+    .banner-content h1 {
+      color: #FFFFFF;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      line-height: 1.2;
+      font-size: 2em;
+    }
+  }
+
+  @media (max-width: 508px) {
+    .banner-content-frase h1 {
+        color: #FFFFFF;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 2em;
+    }
+}
+
+
+
+/* Estilos para el menú en responsive */
+/* Esconde el checkbox visualmente */
+#menu-toggle {
+    display: none;
+}
+
+/* Estilos para el ícono de hamburguesa */
+.hamburger {
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #000;
+}
+
+/* Estilos para el menú desplegable */
+@media (max-width: 998px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+    }
+
+    /* Menú visible cuando el checkbox está marcado */
+    #menu-toggle:checked + .hamburger + .nav-links {
+        transform: translateX(0);
+    }
+
+    .nav-links a {
+        color: #000;
+        text-decoration: none;
+        padding: 15px 0;
+        font-size: 1.2em;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .nav-links a:last-child {
+        border-bottom: none;
+    }
+}
+/* Estilos para el ícono de la cruz */
+.close-icon {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 27px;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #000;
+    font-weight: lighter;
+  }
+
+/* Mostrar la cruz cuando el menú esté abierto */
+#menu-toggle:checked + .hamburger + .nav-links .close-icon {
+    display: block;
+}
+#response-message {
+    margin-top: 40px;
+}
+
+
+.bar-sup {
+    display: none;
+}
+
+@media (max-width: 508px) {
+    /* Muestra la barra superior e íconos solo en mobile */
+    .bar-sup {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #000;
+        height: 30px;
+        padding-right: 20px;
+        gap: 5px;
+    }
+
+    .bar-sup a {
+        color: #CBBC9B; /* Color específico para los iconos */
+        margin-left: 10px;
+    }
+
+    /* Ajustes de estilo para los iconos */
+    .bar-sup i {
+        font-size: 16px;
+    }
+
+    .banner-content {
+        text-align: left;
+        justify-items: left;
+        
+    }
+
+    .banner-content-frase { 
+        text-align: left;
+    }
+    .banner-content-frase {
+        justify-items: left;
+    }
+    #language-toggle-abr {
+        background-color: #CBBC9B;
+        color: #1C1C24;
+        /* padding: 10px 20px; */
+        border-radius: 0;
+        text-decoration: none;
+/*      font-size: 0.8em; */  
+        border: #CBBC9B solid 1px;
+        /* margin-right: 5px; */
+        display: block;
+    }
+
+}
+
+.close-icon {
+    top: 55px;
+}
+.menu {
+    top: 55px;
+  }
+
+  @media (max-width: 508px) {
+    .header-top {
+        height:14vh;
+    }
+    .logo {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 998px) {
+    #menu-toggle:checked + .hamburger + .nav-links {
+        transform: translateX(0);
+        gap: 0;
+    }
+}
+
+
+.btn-idioma {
+    background-color: #CBBC9B;
+    color: #1C1C24;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    border-radius: 5px;
+    border: #CBBC9B solid 1px;
+    margin-right: 5px;
+    display: block;
+  }
+
+  /* Oculta el cuadro de entrada de Google Translate y la barra superior */
+/* Oculta la barra superior y los elementos adicionales de Google Translate */
+.goog-te-banner-frame.skiptranslate,
+.goog-te-menu-frame.skiptranslate,
+.goog-te-balloon-frame,
+#goog-gt-tt,
+.vi,
+#goog-gt-vt,
+.VIpgJd-yAWNEb-hvhgNd,
+.VIpgJd-yAWNEb-hvhgNd-N7Eqid,
+.VIpgJd-yAWNEb-hvhgNd-UTujCb,
+.VIpgJd-yAWNEb-hvhgNd-bgm6sf,
+.goog-tooltip,
+.goog-te-spinner-pos,
+#goog-gt-votingHiddenPane,
+.goog-te-combo {
+    display: none !important;
+}
+
+/* Elimina cualquier margen superior que pudiera agregar la barra de Google Translate */
+body {
+    top: 0 !important;
+}
+#goog-gt-vt {
+    display: none !important;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd, /* Oculta el logotipo de Google */
+.VIpgJd-ZVi9od-ORHb-bN97Pc, /* Oculta los textos "Traducir" y "Ver esta página en:" */
+.VIpgJd-ZVi9od-LgbsSe, /* Oculta el botón de Opciones */
+#options, /* Oculta el contenedor de opciones */
+#goog-gt-votingHiddenPane, /* Oculta el panel de votación */
+#goog-gt-votingForm { /* Oculta el formulario de votación */
+    display: none !important;
+}
+
+.skiptranslate {
+    display: none;
+}
